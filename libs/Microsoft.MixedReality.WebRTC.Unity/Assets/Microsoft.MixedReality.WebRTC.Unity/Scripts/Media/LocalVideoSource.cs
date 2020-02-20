@@ -291,15 +291,12 @@ namespace Microsoft.MixedReality.WebRTC.Unity
                 videoDevice = default,
                 videoProfileId = videoProfileId,
                 videoProfileKind = videoProfileKind,
-                width = 896,//(width > 0 ? (uint?)width : null),
-                height = 504,//(height > 0 ? (uint?)height : null),
+                width = (width > 0 ? (uint?)width : null),
+                height = (height > 0 ? (uint?)height : null),
                 framerate = (framerate > 0 ? (double?)framerate : null),
                 enableMrc = EnableMixedRealityCapture,
                 enableMrcRecordingIndicator = EnableMRCRecordingIndicator
             };
-
-            Debug.Log("Local video width: " + trackSettings.width);
-            Debug.Log("Local video height: " + trackSettings.height);
 
             Track = await nativePeer.AddLocalVideoTrackAsync(trackSettings);
             if (Track != null)
