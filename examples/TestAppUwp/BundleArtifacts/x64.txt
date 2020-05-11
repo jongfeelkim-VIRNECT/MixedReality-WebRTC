@@ -1,0 +1,2 @@
+MainPackage=E:\Projects\MixedReality-WebRTC\bin\UWP\x64\Release\Microsoft.MixedReality.WebRTC.TestAppUWP_0.1.7.0_x64.appx
+SymbolPackage=E:\Projects\MixedReality-WebRTC\build\Microsoft.MixedReality.WebRTC.TestAppUWP\x64\Release\x64\Release\Symbols\Microsoft.MixedReality.WebRTC.TestAppUWP_0.1.7.0_x64.appxsym
